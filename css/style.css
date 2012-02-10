@@ -295,43 +295,58 @@ td { vertical-align: top; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
+body{
+background-color:#ccc;
+background: #ccc url("../img/fondo01-2.png") top center no-repeat;
+}
 header {
  
 }
 #container {
- background: url("../img/background.png") top center no-repeat;
+ 
 }
 #main {
 
 }
 #iruindarrok {
-  height:200px;
+  height:375px;
 }
 #zer-da{
-	background-color:#000;
+	/*background-color:#000;*/
 	color: #DDD;
 }
 #infariak{
-	background-color:#000;
+	/*background-color:#000;*/
 	color: #DDD;
 }
-#kontaktua {
+#kontaktua-wrapper {
 	background-color:#000;
-	color: #DDD;
+	
 	width:100%;
+}
+#kontaktua {
+	color: #DDD;
 }
 
 #nav {
   float:right;
-  background-color:#000;
+  /*background-color:#000;*/
+   
 }
 #nav ul{
-  padding-right:5em;
-  margin: 10px 10px;
+  margin:0;
+  padding:0;
 }
 #nav ul li{
-  padding:5px;
+  padding:5px 5px 5px 55px;
   list-style: none;
+  display:inline;
+  background:url('../img/izarra.png') no-repeat;
+  list-style-image:url('../img/izarra.png');
+}
+#nav ul li.nav-first{
+	/*background-image:none;
+	padding-left:0px*/
 }
 #nav ul li a:link,#nav ul li a:visited{
   color:#DDD;
@@ -342,12 +357,15 @@ header {
 #nav ul li.current a{
   color: #F00;
 }
+
+
 #nav-fixed {
   position:fixed;
   z-index:100;
   top: 0px;
   width:100%;
-  height:40px;
+  height:50px;
+  
   font-color:#fff;
   background-color:#000;
 }
@@ -356,7 +374,14 @@ header {
 }
 #nav-fixed ul li{
   float:left;
-  padding-left:20px;
+  list-style: none;
+  background:url('../img/izarra.png') no-repeat;
+  padding-left:40px;
+}
+#nav-fixed ul li.nav-first{
+	/*background-image:none:
+
+	padding-left:0px*/
 }
 #nav-fixed ul li a:link,#nav-fixed ul li a:visited{
   color:#DDD;
@@ -368,8 +393,9 @@ header {
   color: #F00;
 }
 .section {
-  padding: 5px;
+
 }
+
 .emaila {
  font-size:40pt;
 }
@@ -382,5 +408,16 @@ span.data {
 }
 #zer-da-eta-infariak:{
 	width:100%;
+	background-color:#000;
+}
+.image-border{
+	padding:10px;
+	border-width: 10px;
+	-moz-border-image: url(../img/box02.png) 10 stretch; /*Mozilla version*/
+	-webkit-border-image: url(../img/box02.png) 10 stretch; /*Webkit version*/
+	-o-border-image: url(../img/box02.png) 10 stretch; /*Opera version*/
+	-ms-border-image: url(../img/box02.png) 10 stretch; /*IE syntax when it does support this prop*/
+	border-image: url(../img/box02.png) 10 stretch; /*Standard version*/
+	background-clip:padding-box;
 	background-color:#000;
 }
