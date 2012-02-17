@@ -1,0 +1,4 @@
+<span class="ekintzak-data">{{data}}</span>
+  <br/>
+  <div class="lang-eu"><span class="ekintzak-textua">{{textua-eu}}</span></div>
+  <div class="lang-es"><span class="ekintzak-textua">{{textua-es}}</span></div>

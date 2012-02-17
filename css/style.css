@@ -297,10 +297,16 @@ td { vertical-align: top; }
 }
 body{
 	background-color:#ccc;
-	background: #ccc url("../img/fondo01-2.png") top center no-repeat;
+	background: #ccc url("../img/fondo04.png") top center no-repeat;
 }
 header {
  
+}
+a:link,a:visited {
+  color:#DDD;
+}
+a:hover{
+  color:#F00;
 }
 #container {
  
@@ -314,10 +320,18 @@ header {
 #zer-da{
 	/*background-color:#000;*/
 	color: #DDD;
+	text-align:justify;
 }
 #infariak{
 	/*background-color:#000;*/
 	color: #DDD;
+}
+#ekintzak {
+  
+}
+#kontaktua {
+  background-color:#000;
+  
 }
 #kontaktua-wrapper {
 	background-color:#000;
@@ -394,7 +408,8 @@ header {
   color: #F00;
 }
 .section {
-
+  padding:20px;
+  color:#ccc;
 }
 
 .emaila {

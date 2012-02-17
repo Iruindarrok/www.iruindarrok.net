@@ -36,9 +36,6 @@
 		return filePath;
 	}
     sectionLoader.gotSomethingFromTheServer = function(response,status){
-		console.log(response);
-		console.log(status);
-		
 		
 	}
 	sectionLoader.doAnAmazingDataRender = function(data,type){
@@ -54,7 +51,6 @@
 	}
     sectionLoader.init = function($this, o) {
 		var niceFilePath = sectionLoader.gimmeANiceFilePath($this,o);
-		console.log(niceFilePath);
 		$get = $.ajax(
 			{url:niceFilePath
 			  ,dataType:'text'
@@ -63,9 +59,8 @@
 				
 			});
 		$get.success(function(data){
-		console.log(data);
-		renderedData = sectionLoader.doAnAmazingDataRender(data,o.type);
-		$this.html(renderedData);
+  		renderedData = sectionLoader.doAnAmazingDataRender(data,o.type);
+  		$this.html(renderedData);
 		});
 		
     };
