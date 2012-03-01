@@ -1,5 +1,5 @@
 ﻿##Zer da?
-Iruindarrok gaztez ostatutako peñanferminzale bat gara, gozatzeko aukera bilatzen dugularik, festa herrikoia, parekidea eta partehartzailea sortuz.
+Iruindarrok gaztez ostatutako peña sanferminzale bat gara, gozatzeko aukera bilatzen dugularik, festa herrikoia, parekidea eta partehartzailea sortuz.
 
 Udaletxeak eskaintzen duen egitarauaren alternatiba bezala, non jende guztia antolatu eta parte hartu dezakeen.
 
